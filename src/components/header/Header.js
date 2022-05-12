@@ -39,7 +39,7 @@ return (
         <span style={{marginLeft:5,border:"2px solid light",borderRadius:10,backgroundColor:"lightgrey"}}>{data.visibility}</span>
       </div>
       <div className='right_nav'>
-        <RepoDetail tag="Watch" value={data.subscribers_count} />
+        <RepoDetail tag="Notification"/>
         <RepoDetail tag="Star" value={data.stargazers_count} />
         <RepoDetail tag="Fork" value={data.forks_count} />
       </div>

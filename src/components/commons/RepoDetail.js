@@ -9,7 +9,7 @@ import "./RepoDetails.css"
 const RepoDetail = ({ tag, value }) => (
   <div className="detail_container">
     <span className="tag_container">
-      { tag === 'Watch' && <WatchSVG /> }
+      { tag === 'Notification' && <WatchSVG /> }
       { tag === 'Star' && <StarSVG /> }
       { tag === 'Fork' && <ForkSVG /> }
 
